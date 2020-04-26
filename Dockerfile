@@ -10,5 +10,5 @@ ENV APP_ROOT /app
 WORKDIR $APP_ROOT
 ADD ./Gemfile $APP_ROOT/Gemfile
 ADD ./Gemfile.lock $APP_ROOT/Gemfile.lock
-RUN bundle install
+RUN bundle install --without development test
 ADD . $APP_ROOT
