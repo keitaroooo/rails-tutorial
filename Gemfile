@@ -36,7 +36,7 @@ gem 'bootsnap', '>= 1.1.0', require: false
 
 group :development, :test do
   # 開発環境ではSQLite3を使用
-  gem 'sqlite3', '-> 1.4'
+  gem 'sqlite3'
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
 end
@@ -60,7 +60,7 @@ end
 
 group :production do
 # 本番環境ではPostgreSQLを使用
-  gem 'pg', '-> 0.18.4'
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
