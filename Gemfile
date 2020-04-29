@@ -9,10 +9,10 @@ gem 'rails', '~> 5.2.4', '>= 5.2.4.2'
 gem 'bcrypt',                  '~> 3.1.12'
 gem 'faker',                   '~> 1.7.3'
 gem 'carrierwave',             '~> 1.2.2'
-gem 'mini_magick',             '~> 4.7.0'
+gem 'mini_magick',             '>= 4.9.4'
 gem 'will_paginate',           '~> 3.1.6'
 gem 'bootstrap-will_paginate', '~> 1.0.0'
-gem 'bootstrap-sass',          '~> 3.3.7'
+gem 'bootstrap-sass',          '>= 3.4.1'
 
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
