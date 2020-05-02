@@ -83,7 +83,7 @@ end
 group :production do
 # 本番環境ではPostgreSQLを使用
   gem 'pg'
-  #gem 'fog'
+  gem 'fog'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
