@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 2020_05_08_050304) do
     t.boolean "admin", default: false
     t.string "activation_digest"
     t.boolean "activated", default: false
-    t.time "activated_at"
+    t.datetime "activated_at"
     t.index ["email"], name: "index_users_on_email", unique: true
   end
 
